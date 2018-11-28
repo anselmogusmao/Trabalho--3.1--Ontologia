@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#adquiri -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#adquiri">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fabrica"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#compra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#compra">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#vende"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#credencia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#credencia">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fabrica"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#cumpre_normas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#cumpre_normas">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fiscaliza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fabrica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fabrica">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fiscaliza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fiscaliza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fiscaliza">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#vende -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#vende">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#CBC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#CBC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Glock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Glock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Taurus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Taurus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fabricante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_curta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_curta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_longa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_longa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#baioneta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#baioneta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#canivete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#canivete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#caça_e_pesca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#caça_e_pesca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#espada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#espada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#espingarda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#espingarda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_longa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#explosivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#explosivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Modelo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#exército_brasileiro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#exército_brasileiro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fumigino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fumigino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#explosivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fuzil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#fuzil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_longa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo_estadual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo_estadual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo_federal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo_federal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#granada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#granada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#explosivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#importadora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#importadora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#loja_especializada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#loja_especializada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Fornecedor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#morteiro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#morteiro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#explosivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pessoa_física -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pessoa_física">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pessoa_jurídica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pessoa_jurídica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Consumidor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pistola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#pistola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_curta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#polícia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#polícia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#punhal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#punhal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_branca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#receita_federal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#receita_federal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#revolver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#revolver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_curta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#submetralhadora -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#submetralhadora">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#arma_longa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#Órgão_de_controle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/quintal&apos;s/ontologies/2018/10/untitled-ontology-13#MinhasClasses"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
